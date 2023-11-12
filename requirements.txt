@@ -1,0 +1,12 @@
+# the equality ~= means that more recent minor/bug releases can be installed.
+# However, not breaking releases (only the last specified number below may increment).
+black>=23.9.1
+streamlit~=1.27
+pandas~=2.1
+geopandas~=0.14
+numpy~=1.26
+lxml~=4.9  # For opening xml files into Pandas.
+seaborn~=0.13  # For e.g. the density plots
+plotly~=5.17  # For plotly.graph_objects (visualising maps)
+keplergl~=0.3
+streamlit-keplergl~=0.3

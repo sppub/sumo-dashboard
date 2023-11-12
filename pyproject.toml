@@ -1,0 +1,5 @@
+[tool.black]
+line-length = 100
+
+# This file is used by the black formatter to automatically infer the preferred line length
+#  (100 characters) without that having to be configured by contributors locally.
